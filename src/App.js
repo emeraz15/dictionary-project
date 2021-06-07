@@ -5,7 +5,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <div className="containter">
+      <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
@@ -14,7 +14,17 @@ export default function App() {
         </main>
 
         <footer className="App-footer">
-          <small>Coded by Erika Meraz</small>
+          <small>
+            {" "}
+            <a
+              href="https://github.com/emeraz15/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-source code
+            </a>{" "}
+            by Erika Meraz
+          </small>
         </footer>
       </div>
     </div>
