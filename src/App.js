@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import em_logo from "./em_logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,7 +7,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <img
+            src={em_logo}
+            className="Personal-logo img-fluid"
+            alt="personal_logo"
+          />
+          <h5>Dictionary React App Project</h5>
         </header>
         <main>
           <Dictionary />

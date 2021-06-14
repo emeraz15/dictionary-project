@@ -1,14 +1,27 @@
+body {
+  background: #f5eef8;
+}
+
+a {
+  color: #4a235a;
+}
+
 .App-header {
   margin: 30px 0;
 }
-
-.App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+.App-header h5 {
+  text-align: center;
+  color: #6c6c6c;
+  margin-top: 20px;
 }
-
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+.Personal-logo {
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
 }
